@@ -1,0 +1,29 @@
+package com.teste.testefluxoedeploy.pacote1;
+
+rule "R0"
+    ruleflow-group "grupo0"
+    when
+    then
+        System.out.println("--------##--------");
+end
+
+rule "R1"
+    ruleflow-group "grupo1"
+    when
+    then
+        System.out.println("R1");
+end
+
+rule "R2"
+    ruleflow-group "grupo2"
+    when
+    then
+        System.out.println("R2");
+end
+
+rule "R3"
+    ruleflow-group "grupo3"
+    when
+    then
+        System.out.println("R3");
+end
